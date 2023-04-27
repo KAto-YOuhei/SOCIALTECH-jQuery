@@ -691,6 +691,16 @@ p {
  スマートフォン用のスタイル
 =====================*/
 @media screen and (max-width: 767px) {
+  /*スマホ用カルーセル設定*/
+  .carousel {
+    width: 375px;
+    margin: 0 auto 0 auto;
+  }
+
+  .carouselImg {
+    width: 375px;
+  }
+
   body {
     min-width: 375px;
     margin: 0;
@@ -703,8 +713,9 @@ p {
 
   /* ハンバーガーメニュー */
   #menu-sp {
-    float: right;
-    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   /* スマホ用ナビゲーションの表示切替*/

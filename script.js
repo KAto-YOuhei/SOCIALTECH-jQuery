@@ -28,4 +28,9 @@ $(function () {
     autoplaySpeed: 5000,
     arrows: false,
   });
+
+  //お問い合わせフォームの入力チェック
+  function () {
+    
+  }
 });
